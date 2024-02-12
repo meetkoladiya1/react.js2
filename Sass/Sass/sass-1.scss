@@ -1,0 +1,332 @@
+@import 'variable';
+
+
+// .maindiv{
+//     height: $h-1;
+//     width: $w-1;
+//     background-color: $bg-orange;
+// }
+
+// ----------------------------------------
+
+// @mixin card{
+//     height: $h-5;
+//     width: $w-3;
+//     border: 2px solid black;
+// }
+
+// .container{
+//     display: flex;
+//     justify-content: space-around;
+// }
+
+// .maindiv{
+//     @include card;
+//     text-align: center;
+// }
+
+// img{
+//     height: $h-1;
+    
+// }
+
+// .icon{
+//     display: flex;
+//     text-align: center;
+// }
+// .div-1{
+//     font-size: 50px;
+//     align-items: center;
+// }
+
+// button{
+//     background-color: $bg-black;
+//     color: $color-white;
+//     border-radius: 50px;
+//     height: 50px;
+//     width: $w-2;
+    
+// }
+
+// .div-2{
+//     color: $color-white;
+// }
+
+// .button{
+//     background-color: $bg-white;
+//     color: $color-pink;
+// }
+
+
+
+// ------------------------------------------------
+
+
+
+// %card{
+//     height: $h-1;
+//     width: $w-1;
+//     background-color: $bg-orange;
+// }
+
+
+// .container{
+//     display: flex;
+//     justify-content: space-around;
+// }
+
+// .maindiv{
+//     @extend %card;
+//     text-align: center;
+// }
+
+// img{
+//     height: $h-1;
+    
+// }
+
+// .icon{
+//     display: flex;
+//     text-align: center;
+// }
+// .div-1{
+//     font-size: 50px;
+//     align-items: center;
+// }
+
+// button{
+//     background-color: $bg-black;
+//     color: $color-white;
+//     border-radius: 50px;
+//     height: 50px;
+//     width: $w-2;
+    
+// }
+
+// .div-2{
+//     color: $color-white;
+// }
+
+// .button{
+//     background-color: $bg-white;
+//     color: $color-pink;
+// }
+
+
+
+
+// -------------------------------------------------------------------------------------------
+
+
+
+
+// @mixin card-1{
+//   border-radius: 10px;
+// }
+
+// body{
+//   background-color: $bg-black;
+// }
+
+// .container{
+//   @include card-1;
+//   height: $h-6;
+//   width: $w-4;
+//   background-color: rgba(120, 120, 120, 0.30);
+//   margin: auto;
+//   margin-top: 100px;
+//   border: rgba(120, 120, 120, 0.50);
+//   backdrop-filter: blur(10px);
+// }
+
+// .image{
+//     height: $h-2;
+//     width: $w-2;
+//     border-radius: 100%;
+//     background-color: $bg-white;
+//     margin: auto;
+//     border: 20px solid gray;
+// }
+// img{
+//   border-radius: 50%;
+// }
+
+// .div-11{
+//   margin-left: 140px;
+  
+// }
+
+// h6{
+//   font-size: 25px;
+//   color: $color-white;
+// }
+
+// .div-12{
+//   margin-left: 90px;
+//   color: $color-white;
+// }
+
+// .icons{
+//   display: flex;
+//   justify-content: space-evenly;
+// }
+// .ico{
+//   height: 50px;
+//   width: 50px;
+//   border-radius: 100%;
+//   background-color: rgb(255 255 255 / 0.3);
+//   font-size: 19px;
+// }
+// i{
+//   margin-top: 25px;
+//   margin-left: 13px;
+// }
+
+// .div-13{
+//   display: flex;
+//   justify-content: space-evenly;
+//   margin-top: 20px;
+// }
+// button{
+//   height: 50px;
+//   width: 150px;
+//   border-radius: 10px;
+//   background-color:  rgb(255 255 255 / 0.3);
+//   border: none;
+// }
+
+
+// .blue{
+//   height: 200px;
+//   width: 200px;
+//   display: flex;
+//   border-radius: 50%;
+//   background: linear-gradient(blue,rgb(32, 158, 208));
+//   position: absolute;
+//   left: 430px;
+//   top: -10px; 
+//   z-index: -1;
+// }
+
+
+// .orange{
+//   height: 200px;
+//   width: 200px;
+//   display: flex;
+//   border-radius: 50%;
+//   background: linear-gradient(to right,rgb(180, 44, 44) 1%, rgb(220, 147, 11) 50%, yellow);
+//   position: absolute;
+//   right: 490px;
+//   bottom: -80px;
+//   z-index: -1;
+// }
+
+
+
+
+
+
+// ------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+@mixin card-1() {
+  height: $h-7;
+  width: $w-4;
+  border: 2px solid black;
+  border-radius: 50px;
+  margin: auto;
+  margin-top: 30px;
+  background-color: $bg-white;
+}
+
+body {
+  background: linear-gradient(to bottom right, #ffb077 50%, rgb(249, 83, 208) 100%);
+}
+
+.container {
+  @include card-1;
+}
+
+.img-1 {
+  height: $h-2;
+  width: $w-4;
+  border-radius: 50px 50px 0 0;
+}
+
+.img-2 {
+  height: 150px;
+  width: 150px;
+  border-radius: 100px;
+  background-color: $bg-white;
+  margin-left: 120;
+  margin-top: -60px;
+  box-shadow: 0
+  0 20px black;  
+}
+
+i {
+  font-size: 50px;
+  display: flex;
+  justify-content: end;
+  margin-top: -70px;
+  margin-right: 20px;
+}
+
+h1 {
+  margin-top: 50px;
+  margin-left: 80px;
+}
+
+b {
+  margin-left: 145px;
+  font-size: 20px;
+  color: lightgray;
+}
+
+.maindiv {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  font-size: 35px;
+  font-weight: bolder;
+  color: skyblue;
+  margin-top: 20px;
+}
+
+.maindiv-1{
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  font-weight: bolder;
+  color: lightgrey;
+  font-size: 20px;
+}
+
+.folo {
+  margin-right: 20px;
+}
+
+.btn {
+  height: 50px;
+  width: 350px;
+  border-radius: 50px;
+  background-color: $bg-yellow;
+  margin-top: 20px;
+  margin-left: 25px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+pre {
+
+display: flex;
+justify-content: space-evenly;
+font-size: 20px;
+overflow: hidden;
+color: $color-black;
+font-weight: bold;
+}

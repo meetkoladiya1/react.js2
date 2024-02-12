@@ -1,0 +1,17 @@
+.main{
+    height: 500px;
+    width:500px;
+    margin: auto;
+    margin-top: 150px;
+}
+
+
+h1{
+    position: absolute;
+    top: 70px;
+    left: 600px;
+}
+
+.accordion-item{
+    border-radius: 50px;
+}

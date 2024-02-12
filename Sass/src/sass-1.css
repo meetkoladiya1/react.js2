@@ -1,0 +1,91 @@
+body {
+  background: linear-gradient(to bottom right, #ffb077 50%, rgb(249, 83, 208) 100%);
+}
+
+.container {
+  height: 700px;
+  width: 400px;
+  border: 2px solid black;
+  border-radius: 50px;
+  margin: auto;
+  margin-top: 30px;
+  background-color: white;
+}
+
+.img-1 {
+  height: 200px;
+  width: 400px;
+  border-radius: 50px 50px 0 0;
+}
+
+.img-2 {
+  height: 150px;
+  width: 150px;
+  border-radius: 100px;
+  background-color: white;
+  margin-left: 120;
+  margin-top: -60px;
+  box-shadow: 0 0 20px black;
+}
+
+i {
+  font-size: 50px;
+  display: flex;
+  justify-content: end;
+  margin-top: -70px;
+  margin-right: 20px;
+}
+
+h1 {
+  margin-top: 50px;
+  margin-left: 80px;
+}
+
+b {
+  margin-left: 145px;
+  font-size: 20px;
+  color: lightgray;
+}
+
+.maindiv {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  font-size: 35px;
+  font-weight: bolder;
+  color: skyblue;
+  margin-top: 20px;
+}
+
+.maindiv-1 {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  font-weight: bolder;
+  color: lightgrey;
+  font-size: 20px;
+}
+
+.folo {
+  margin-right: 20px;
+}
+
+.btn {
+  height: 50px;
+  width: 350px;
+  border-radius: 50px;
+  background-color: yellow;
+  margin-top: 20px;
+  margin-left: 25px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+pre {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 20px;
+  overflow: hidden;
+  color: black;
+  font-weight: bold;
+}/*# sourceMappingURL=sass-1.css.map */

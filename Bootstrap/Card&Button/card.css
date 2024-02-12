@@ -1,0 +1,59 @@
+body{
+    background: linear-gradient(to bottom,red,yellow);
+}
+
+.three{
+    padding: 100px;
+}
+
+.card{
+    border: 2px solid wheat;
+}
+
+.select{
+    margin-left: 60;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    width: 130px;
+}
+
+.list-group-item {
+    position: relative;
+    display: block;
+    border: none;
+    color: #212529;
+    text-decoration: none;
+    background-color: #fff;
+}
+
+.one{
+    text-align: center;
+    padding: 8px;
+}
+
+.two{
+    text-align: center;
+}
+
+.four{
+    padding-left: 80px;
+    padding-right: 80px;
+    height: 400px;
+}
+
+.five{
+    position: absolute;
+    top: 110px;
+    left: 110px;
+}
+
+li{
+    list-style-type: none;
+}
+
+.box-1{
+    height: 90px;
+    width: auto;
+
+}

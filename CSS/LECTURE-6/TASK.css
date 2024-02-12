@@ -1,0 +1,305 @@
+.maindiv{
+    height: 700px;
+    width: 1300px;
+    margin: auto;
+    position: relative;
+    background-color: white;    
+    display: flex;
+    border: 10px black solid;
+    border-radius: 20px;
+}
+
+.box-1{
+    height: 500px;
+    width: 350px;
+    background-color: rgb(24, 85, 72);
+    background-image: url("/CSS/asset-s/asset\ 41.png");    
+    color: yellow;
+    font-size: 30px;
+    position: absolute;
+    left: 186px;
+    top: 100px;
+    border-radius: 10px;
+    .box-box{
+        font-size: 20px;
+    }
+
+    .img-1{
+        position:absolute;
+        left: -50px;
+    }
+    .img{
+        position: absolute;
+        height: 100px;
+        top: 385px;
+        right: 20px;
+    }
+    .div{
+        position: absolute;
+        height: 100px;
+        top: 398px;
+        right: 34px;
+    }
+
+}
+
+
+.box-2{
+    height: 239px;
+    width: 400px;
+    background-color: red;
+    position: absolute;
+    top: 100px;
+    left: 555px;
+    border-radius: 10px;
+}
+.img-2{        
+    position: absolute;
+    top: -60px;
+}
+
+.div-1{
+    position: absolute;
+    top: 20px;
+    left: 200px;
+    font-size: 20px;
+}
+.div-2{
+    position: absolute;
+    top: 60px;
+    left: 200px;
+    font-size: 40px;
+}
+
+.div-3{
+    position: absolute;
+    top: 120px;
+    left: 200px;
+    font-size: 40px;
+}
+.div-4{
+    height: 50px;
+    width: 130px;
+    background-color: white;
+    position: absolute;
+    top: 170px;
+    left: 200px;
+    font-size: 20px;
+}
+
+
+
+
+/* img
+{
+   margin-top: 130px;
+   height: 600px;
+   width: 1500px;
+   background-color: whitesmoke;
+}
+
+div img
+{
+    height: 525px;
+    width: 400px;
+    bottom:30px;
+    position: absolute;
+    background-color: rgb(41, 78, 78);
+    margin-left: 50px;
+    border-radius: 10px;
+}
+
+div div img
+{
+    background-image: cover;
+    height: inherit;
+    overflow-x: initial;
+    background-position: inherit;
+}
+
+ p
+{
+    bottom:472px;
+    position: absolute;
+    color: white;
+    padding-left: 170px;
+    font-size: 20px;
+}
+
+h1
+{
+    bottom:410px;
+    position: absolute;
+    color: yellow;
+    padding-left: 130px; 
+}
+
+.ntr
+{
+    height: 120px;
+    width: 120px;
+    bottom:45px;
+    position: absolute;
+    color: yellow;
+    margin-left: 300px; 
+}
+
+i
+{
+    bottom:70px;
+    position: absolute;
+    color: black;
+    margin-left: 335px; 
+    font-size: 30px;
+}
+
+.div
+{
+    height: 300px;
+    width: 500px;
+    background-color: red;
+    bottom:250px;
+    position: absolute;
+    margin-left: 470px; 
+    border-radius: 20px;
+}
+
+.ntrr
+{
+    height: 300px;
+    width: 150px;
+    bottom:250px;
+    position: absolute;
+    margin-left: 500px; 
+    background-color: red;
+    background-position-y: remove;
+}
+
+h3
+{
+    bottom:470px;
+    position: absolute;
+    color: white;
+    margin-left: 690px; 
+    font-size: 23px; 
+}
+
+h2 
+{
+    bottom:350px;
+    position: absolute;
+    color: white;
+    margin-left: 690px; 
+    font-size: 70px; 
+}
+
+b
+{
+    bottom:360px;
+    position: absolute;
+    color:yellow;
+    margin-left: 690px; 
+    font-size: 30px; 
+}
+
+.btn1
+{
+    bottom:280px;
+    position: absolute;
+    height: 60px;
+    width: 200px;
+    margin-left: 690px; 
+    font-size: 25px;
+    border-radius: 10px; 
+}
+
+.nntr
+{
+    height: 300px;
+    width: 450px;
+    bottom:250px;
+    position: absolute;
+    margin-left: 1000px; 
+    border-radius: 20px;
+}
+
+h4
+{
+    bottom:472px;
+    position: absolute;
+    color: white;
+    padding-left: 1220px;
+    font-size: 20px;
+}
+
+big
+{
+    bottom:430px;
+    position: absolute;
+    color: yellow;
+    margin-left: 1220px; 
+    font-size: 50px; 
+}
+
+.btn2
+{
+    bottom:320px;
+    position: absolute;
+    height: 60px;
+    width: 200px;
+    margin-left: 1220px; 
+    font-size: 25px; 
+    border-radius: 10px;
+}
+
+.immg1
+{
+    height: 200px;
+    width: 980px;
+    bottom:20px;
+    position: absolute;
+    margin-left: 470px; 
+    background-color: green;
+    border-radius: 20px;
+}
+
+.immg2
+{
+    height: 200px;
+    width: 300px;
+    bottom:20px;
+    position: absolute;
+    margin-left: 470px; 
+    background-color: green;
+    border-radius: 20px;
+    background-image: 100%;
+}
+
+.w-1
+{
+    bottom:150px;
+    position: absolute;
+    color: white;
+    margin-left: 800px; 
+    font-size: 20px; 
+}
+
+.w-2
+{
+    bottom:30px;
+    position: absolute;
+    color: white;
+    margin-left: 660px; 
+    font-size: 70px; 
+}
+
+.btn3
+{
+    bottom:100px;
+    position: absolute;
+    height: 60px;
+    width: 200px;
+    margin-left: 1150px; 
+    font-size: 25px; 
+    border-radius: 10px;
+} */

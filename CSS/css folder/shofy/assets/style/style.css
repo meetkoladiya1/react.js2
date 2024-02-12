@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+/* common css */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.container{
+    max-width: 1150px;
+    margin: auto;
+}
+/* header start */
+.bg-top-color{
+    background-color: black;
+}
+.topbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    padding: 5px 0px;
+}
+.topbar-text p{
+    color:white;
+}
+.top-select{
+    display: flex;
+}
+
+/* navigationbar start */
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.user-image{
+height: 50px;
+width: 50px;
+border-radius: 100%;
+border: 2px solid gray;
+display: flex;
+align-items: center;
+justify-content:center;
+}
+
+.user-image i{
+    font-size: 25px ;
+    color:gray;
+}
+.user-info{
+    display: flex;
+    align-items: center;
+}
+.user-text{
+    margin-left: 10px;
+}
+.search-input{
+    border:2px solid #0989ff;
+    display: flex;
+    align-items: center;
+}
+.text-input input{
+    border:0;
+}
+.text-input:focus-within input{
+    border:0;
+    outline: none;
+}
+.navi-select select{
+    border:0;
+}
+.search-icon{
+    background-color:#0989ff ;
+    padding: 10px 20px;
+}
+/* Nav Bar */
+
+.bar {
+    display: flex;
+    justify-content: space-between;
+}
+.category{
+    border-top:1px solid gray;
+    margin-top: 30px;
+}
+
+.nav-item{
+    display: flex;
+}
+
+.nav-item li{
+    margin: 0;
+}
+
+.nav-item li:not(.select-cate){
+    margin-left: 25px;
+}
+
+.tel{
+    display: flex;
+    align-items: center;
+}
+
+/* NEW PAGE */
+
+.ads{
+    width: 1520px;
+    height: 500px;
+    background-color: #115061;
+    display: flex;
+}
+
+.ads-5{
+    position: absolute;
+    top: 300px;
+    left: 150px;
+}
+.ads-5 .font{
+    font-size: 60px;
+}
+
+.ads-5 .font-2{
+    font-size: 20px;
+}
+
+.color{
+    color: yellow;
+}
+
+.design{
+    position: absolute;
+    left: 90px;
+}
+
+.ads-6{
+    height: 25px;
+    width: 93px;
+    background-color: white;
+    position: absolute;
+    top: 510px;
+    left: 150px;
+    .pointer {cursor: pointer;}
+}
+
+.ads-7{
+    position: absolute;
+    top: 230px;
+    left: 950px;
+}
+
+/* product */
+
+.head {
+    padding-top: 30px;
+}
+
+.cont1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.round
+{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(203, 242, 249);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img2 {
+    height: 100px;
+    width: 100px;
+    object-fit: contain;
+}
+
+.banner-part{
+    display: flex;
+}
+
+.box-1:hover .round img{
+transform: scale(1.3);
+transition:0.5s;
+}
+
+.items-2:hover {
+    color: rgb(6, 146, 234);
+}
+
+.items-2 {
+     font-size: 25px;
+     text-align: center;
+     padding-top: 20px;
+}
+
+.items-3 {
+    /* margin-left: 60px; */
+    text-align: center;
+    color: #55585B;
+}
+
+/* Delivery */
+
+
+.delivery{
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* Treding */
+.treding{
+    margin-top: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tred{
+    position: absolute;
+    left: 150px;
+}
+.tred-1{
+    font-size: 25px;
+    position: absolute;
+    left: 1100px;
+}.tred-2{
+    font-size: 25px;
+    position: absolute;
+    left: 1180px;
+}.tred-3{
+    font-size: 25px;
+    position: absolute;
+    left: 1300px;
+}
+
+
+/* Hover Effect in Card View*/
+
+.cad{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card{
+    height:auto;
+    width:250px;
+    border:1px solid gray;
+    margin-top: 100px;
+}
+.card-image img{
+    object-fit: cover;
+}
+
+.card-image:hover img{
+    transform: scale(1.1);
+    transition: 1s;
+}
+.card-image{
+    position: relative;
+}
+
+.hover-open-content{
+    display: none;   
+    position: absolute;
+    right: 65px;
+    bottom: 50px;
+    transition: 1.5s;
+}
+
+.card-image:hover .hover-open-content{
+    display: block;
+    transform: translate(30px);
+}
+
+
+.card-text{
+    padding: 20px;
+    border-top:1px solid gray
+}
+
+.card-position{
+    background-color: red;
+    border-radius: 5%;
+    position: absolute;
+    top: 1395px;
+    right: 490px;
+}
+
+/* Mobile Ads */
+
+.class-1{
+    margin-top: 100px;
+    height: 300px;
+    width: 350px;
+    border-radius: 2%;
+    background-color: whitesmoke;
+    overflow: hidden;
+}
+
+.class-1-1{
+    font-size: 20px;
+    position:absolute;
+    top: 2430px;
+    left: 250px;
+}
+
+.class-1-2{
+    font-size: 35px;
+    position:absolute;
+    top: 2470px;
+    left: 250px;
+}
+.class-1-3{
+    position:absolute;
+    top: 2580px;
+    left: 250px;
+}
+.class-1-4{
+    position:absolute;
+    top: 2351px;
+    left: 535px;
+}
+.class-1 .class-1-4:hover{
+    transform: scale(1.1);
+    transition: 1s;
+    position: absolute;
+    z-index: -1;
+}

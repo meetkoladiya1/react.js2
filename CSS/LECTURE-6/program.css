@@ -1,0 +1,164 @@
+.maindiv{
+    height: 801px;
+    width: 1675px;
+    margin: auto;
+    position: relative;
+    background-color: black;    
+    display: flex;
+    border: 10px black solid;
+    border-radius: 20px;
+}
+
+.id-1{
+    height: 89px;
+    width: 186px;
+    background-color: white;
+   
+    
+}
+.id-2{
+    height: 89px;
+    width: 186px;
+    background-color: white;    
+    position: absolute;
+    left: 186px;
+    top: 89px;
+}
+.id-3{
+    height: 89px;
+    width: 186px;
+    background-color: white;      
+    position: absolute;
+    left: 372px;
+    top: 178px;
+}
+.id-4{
+    height: 89px;
+    width: 186px;
+    background-color: white;    
+    position: absolute;
+    left: 558px;
+    top:267px ;
+}
+.id-5{
+    height: 89px;
+    width: 186px;
+    background-color: white;       
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.id-6{
+    height: 89px;
+    width: 186px;   
+    background-color: white;
+    position: absolute;
+    right: 558px;
+    top: 267px;
+}
+.id-7{
+    height: 89px;
+    width: 186px;
+    background-color: white;       
+    position: absolute;
+    right: 372px;
+    top: 178px;
+}
+.id-8{
+    height: 89px;
+    width: 186px;
+    background-color: white;        
+    position: absolute;
+    right: 186px;
+    top: 89px;
+}
+.id-9{
+    height: 89px;
+    width: 186px;
+    background-color: white;    
+    position: absolute;
+    right: 0;
+}
+
+
+.id-10{
+    height: 89px;
+    width: 186px;
+    align-self: flex-end;
+    background-color: white;    
+    left: 0;
+    position: absolute;
+}
+
+.id-11{
+    height: 89px;
+    width: 186px;
+    align-self: flex-end;
+    background-color: white;    
+    position: absolute;
+    left: 186px;
+    bottom: 89px;
+}
+
+.id-12{
+    height: 89px;
+    width: 186px;
+    align-self: flex-end;
+    background-color: white;    
+    position: absolute;
+    left: 372px;
+    bottom: 178px;
+}
+
+.id-13{
+    height: 89px;
+    width: 186px;
+    align-self: flex-end;
+    background-color: white;    
+    position: absolute;
+    left: 558px;
+    bottom: 267px;
+}
+
+.id-14{
+    height: 89px;
+    width: 186px;
+    align-self: flex-end;
+    background-color: white;    
+    position: absolute;
+    right: 558px;
+    bottom: 267px;
+}
+
+.id-15{
+    height: 89px;
+    width: 186px;
+    align-self: flex-end;
+    background-color: white;    
+    position: absolute;
+    right: 372px;
+    bottom: 178px;
+}
+
+.id-16{
+    height: 89px;
+    width: 186px;
+    align-self: flex-end;
+    background-color: white;   
+    position: absolute;
+    right: 186px;
+    bottom: 89px;
+}
+
+
+.id-17{
+    height: 89px;
+    width: 186px;
+    align-self: flex-end;
+    background-color: white;    
+    right: 0;
+    position: absolute;
+}

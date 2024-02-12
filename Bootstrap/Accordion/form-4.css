@@ -1,0 +1,11 @@
+.center{
+    margin: auto;
+    margin-top: 50px;
+}
+body{
+    background-color:rgb(87, 90, 222);
+}
+.one{
+    background-color:rgb(87, 90, 222);
+    color: white;
+}
