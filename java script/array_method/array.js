@@ -113,7 +113,7 @@ Array indexes start with 0:
 }
 {
     // let d = [true , 3 , "demo" , "demo-1" , "option" , "option-1"]
-    // let e = d.join("-+--+-")
+    // let e = d.join("-+-*-+-")
     // console.log(e);
     // console.log(typeof(e));
 }
@@ -346,20 +346,20 @@ Array indexes start with 0:
  /* Merging (Concatenating) Arrays */
  
 {
-    let arry1 = ["javascript" , "c" , "c++" , "python" , "html" , "css"];
-    let arry2 = ["kotlin" , "dart" , "nodejs"  , "php" , "wordpress"];
-    let arry3 = ["boostrap" , "tailwind" , "reactjs" , "nextjs"];
+    // let arry1 = ["javascript" , "c" , "c++" , "python" , "html" , "css"];
+    // let arry2 = ["kotlin" , "dart" , "nodejs"  , "php" , "wordpress"];
+    // let arry3 = ["boostrap" , "tailwind" , "reactjs" , "nextjs"];
 
-    let arry4 = arry1.concat(arry3 , arry2)
-    console.log(arry4);
+    // let arry4 = arry1.concat(arry3 , arry2)
+    // console.log(arry4);
 }
 {
-    let a = ["Assam", "Bihar", "Chhattisgarh", "Gujarat", "Haryana", "Jharkhand", "Kerala"];
-    let ar = [ "Maharastra", "Nagaland", "Odisha", "Punjab", "Rajasthan", "Sikkim"];
-    let arr = ["Tamil Nadu", "Telangana", "Uttar Pradesh", "Uttarakhand", "West Bengal",];
+    // let a = ["Assam", "Bihar", "Chhattisgarh", "Gujarat", "Haryana", "Jharkhand", "Kerala"];
+    // let ar = [ "Maharastra", "Nagaland", "Odisha", "Punjab", "Rajasthan", "Sikkim"];
+    // let arr = ["Tamil Nadu", "Telangana", "Uttar Pradesh", "Uttarakhand", "West Bengal",];
 
-    let arry = a.concat(ar , arr)
-    console.log(arry);
+    // let arry = a.concat(ar , arr)
+    // console.log(arry);
 }
  
  /* The concat() method does not change the existing arrays. It always returns a new array. */
@@ -375,28 +375,22 @@ Array indexes start with 0:
 // splice(start, deleteCount, item1, item2)
 // splice(start, deleteCount, item1, item2, /* …, */ itemN)
  
- {
-    //  const fruits = ["Banana", "Orange", "Apple", "Mango"];
-
-    //  console.log(fruits);
-
-    //  fruits.splice(0 , 1);
-
-    //  console.log(fruits);
-
- }
+{
+    // let arry1 = ["javascript" , "c" , "c++" , "python" , "html" , "css"];
+    // console.log(arry1);
+    // let arry2 = arry1.splice(3  , 3 , "reactjs" , "nextjs")
+    // console.log(arry2);
+    // console.log(arry1);
+}
+{
+    // let k = ["Ambulance" , "Bus" , "Car" , "Dumper" , "Ecco" , "Fire Briged"];
+    // console.log(k);
+    // let l = k.splice(2 , 3, "Glanza" , "Hyundai");
+    // console.log(l);
+    // console.log(k);
+}
  
- {
-    //  const fruits = ["Banana", "Orange", "Apple", "Mango"];
 
-    //  document.getElementById("demo").innerHTML = "Original Array:<br> " + fruits;
-
-    //  let removed = fruits.splice(2, 2, "Lemon"); 
-
-    //  document.getElementById("demo-1").innerHTML = "New Array:<br>" + fruits;
-
-    //  document.getElementById("demo-2").innerHTML = "Removed Items:<br> " + removed; 
- }
  
  /* JavaScript Array slice() */
 
@@ -405,134 +399,175 @@ Array indexes start with 0:
 // slice(start, end)
  
  {
-    //  const fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango","Watermelon"];
-    //  const newremove = fruits.slice(1 , 3);
-    //  document.getElementById("demo").innerHTML = fruits + "<br><br>" + newremove;
-
-    //  console.log(fruits);
+    // let arry1 = [45 , 89 , 21 , 2 , 57 , 23]
+    // console.log(arry1);
+    // let arry2 = arry1.slice(0 , 3)
+    // console.log(arry2);
+    // console.log(arry1);
+ }
+ {
+    // let m = [23 , 35 , 46 , 98 , 123 , 179];
+    // console.log(m);
+    // let n = m.slice(1 , 4);
+    // console.log(n);
+    // console.log(m);
  }
  
  /*  Array.isArray */
  
  {
-    //  let book = ["math"  , "chemistry"  , "physics" , "bio"];
-    //  let books = "string";
-    //  console.log(Array.isArray(books));
+    // console.log(Array.isArray(17));
+ }
+ {
+    // let o = [28 , 39 , 29 , 49 , 60]
+    // console.log(Array.isArray(28));
  }
  
  /*  javascript Sorting Array */
  
  {
-    //  let book = ["math"  , "chemistry"  , "physics" , "bio" , "amazon"];
-    //  let books = book.sort();
-    //  console.log(books);
+    // let arry1 = ["javascript" , "c" , "c++" , "python" , "html" , "css"];
+    // console.log(arry1);
+    // let arry2 = arry1.sort()
+    // console.log(arry2);
+ }
+ {
+    // let p = ["Dancer" , "Gun" , "Eagle" , "Fish" , "Cow" , "Apple" , "Banana"];
+    // console.log(p);
+    // let q = p.sort();
+    // console.log(q);
  }
  
  /*  Reversing array */
  
  {
-    //  let book = ["math"  , "chemistry"  , "physics" , "bio"];
-    //  console.log(book);
-    //  let bookss = book.reverse();
-    //  console.log(bookss);
-    //  let books =book.sort();
-    //  console.log(books);
+    // let arry1 = ["javascript" , "c" , "c++" , "python" , "html" , "css"];
+    // console.log(arry1);
+    // let arry2 = arry1.reverse();
+    // console.log(arry2);
+ }
+ {
+    // let r = ["Dancer" , "Gun" , "Apple" , "Fish" , "Cow" , "Eagle" , "Banana"];
+    // console.log(r);
+    // let s = r.reverse();
+    // console.log(s);
  }
  
  /*  Number Sort */
  
  {
-    //  const number1 = [40, 12, 15, 81 ,150 ,200];
-    //  let number = number1.sort()
-    //  console.log(number);
-    //  const number2 = number1.sort(function(a , b){return a - b});
-    //  console.log(number2);
+    // let arry1 = [189 , 45 , 56 , 128  , 10 , 150 ]
+    // console.log(arry1);
+    // let numbersorted = arry1.sort((a  , b) => a - b)
+    // console.log(numbersorted);
  }
- 
- /*  Javascript Array Iteration */
- 
  {
-    //  const number1 = [45 , 56 , 78 , 23 , 96];
-    //  let number2 = "";
-    //  number1.forEach(myFunction);
- 
-    //  document.write(number2);
-    //  function myFunction(value, index, array){
-    //      number2 += value * 2 + "<br>";
-    //  }
- }
- 
- 
- /*  javascript array map() */
- 
- {
-    //  const number1 = [56 , 798 , 345  ,35];
-    //  const number2 = number1.map(myFunction);
- 
-    //  console.log(number2);
-    //  function myFunction(value , index  , array){
-    //      return value * 2;
-    //  }
- }
- 
- 
+    // let t = [29 , 53 , 40 , 68 , 82 , 698 , 379 , 398 , 76 , 0 , 98];
+    // console.log(t);
+    // let u = t.sort((a , b) => a - b)
+    // console.log(u);
+}
+
+/*  javascript array map() */
+
+{
+    // const number1 = [56 , 798 , 345  ,35];
+    // console.log(number1);
+    // const number2 = number1.map(myFunction);
+    
+    // const number3  = number2.sort((a, b) => a - b)
+    
+    // console.log(number2);
+    // console.log(number3);
+    
+    // function myFunction(value){
+    //     return value * 2;
+    // }
+}
+/* Array Map */
+
+{
+    //  let maparry = [20 , 56, 2 , 101 , 50];
+    //  let maparry2 = maparry.map((item) => item*2);
+    //  console.log(maparry);
+    //  console.log(maparry2);
+}
+
+
  /*  javascript Array flatMap() */
  
  {
-    //  const myarr = [1, 2, 3, 4, 5, 6];
-    //  const newarr = myarr.flatMap((x) => x*2);
-    //  console.log(newarr);
+    // let flatmap = [1 , 2 , 3 , 4];
+    // let flatmap1 = flatmap.flatMap((num) => num === 3 ? [1,1] : 2)
+
+    // console.log(flatmap1);
+ }
+
+ /* Javascript Array flat() */
+
+ {
+    // let flatarray  = [10 , 20 , [22 , 33 , [44  , 55 ,[66 , 77]]]]
+    // let flatmap2  = flatarray.flat(3)
+    // console.log(flatmap2);
  }
  
  /* javascript array filter() */
  
  {
-    //  const number1  =[45, 17 , 2, 46 , 78 , 15];
-    //  const number2 = number1.filter(myFunction);
+
+    // let filterarry = ["tennis" , "baseball" , "cricket"  , "khokho" , "vollyball" , "chess"]
+    // let filterarry2  = filterarry.filter((word)  => word.length < 10)
+    // console.log(filterarry2);
+
+    // let filterarry3 = filterarry2.sort()
+    // console.log(filterarry3);
+    
+}
  
-    //  function myFunction(age){
-    //      return age <= 100;
-    //  }
-    //  console.log(number2);
- }
- 
- /*  javascript array fill method */
- 
+
+/*  javascript array fill method */
+
+{
+    let fillarray  = [46 , 89 , 101 , 122 , 45]
+    console.log(fillarray);
+    let fillarray2 = fillarray.fill("Okay" , 2)
+    console.log(fillarray2);
+}
+    
+/* javascript array copywithin() method */
+
+// copyWithin(target, start)
+// copyWithin(target, start, end)
  
  {
-    //  const fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
-    //  const newfill = fruits.fill("1" , 3);
-    //  console.log(newfill);
- }
- 
- /* javascript array copywithin() method */
- 
- {
-     // const fruits = ["A" , "B" , "C" , "D" , "E" , "F"];
-     // const newcopy = fruits.copyWithin(0 , 3 , 4);
-     // console.log(newcopy);
- }
+    //  const fruits = ["A" , "B" , "C" , "D" , "E" , "F"];
+    //  console.log(fruits);
+    //  const newcopy = fruits.copyWithin(1 , 3);
+    //  console.log(newcopy);
+
+    //  console.log([1, 2, 3, 4, 5 , 6].copyWithin(0, 3));
+
+    // console.log([1, 2, 3, 4, 5 , 6  , 7].copyWithin(2, 4 , 5));
+
+    // console.log([7,6,5,4,3,2,1].copyWithin(2, 3));
+    // [1, 2, 3, 3, 4]
+}
+{
+    const copywithin = ["a" , "b" , "c" , "d" , "e" , "f" , "g" , "h" , "i" , "j"];
+                    //   0     1     2     3     4     5      6    7     8     9
+    console.log(copywithin);
+    const newcopy = copywithin.copyWithin(2 , 5);
+    console.log(newcopy); // [a  b  f  g  h  i  j  h  i  j];
+
+    const newcopy1 = copywithin.copyWithin(4 , 1 ,2);
+    console.log(copywithin); // [a  b  c  d  b  c  g  h  i  j]
+}
  
  /* javascript valueof() method */
  
  {
-    //  const fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango" , "watermelon" , "kiwi"  , "Olive"];
-    //  const newfruits = fruits.valueOf();
-    //  console.log(newfruits);
- }
- 
- /*  javascript flat() method */
- 
- {
-    //  const fruits = [1,2,3,[4,[5,6,[7,8,9]]]];
-    //  const newarray1 = fruits.flat();
-    //  const newarray2 = fruits.flat(2);
-    //  const newarray3 = fruits.flat(3);
-    //  const newarray4 = fruits.flat(4);
-    //  console.log(newarray1);
-    //  console.log(newarray2);
-    //  console.log(newarray3);
-    //  console.log(newarray4);
+    let arry = [1,2,3,4,5,6,7,8,9]
+    console.log(arry.valueOf());
  }
  
  /*  JavaScript Multidimensional Array */
@@ -540,103 +575,85 @@ Array indexes start with 0:
  /* A multidimensional array is an array that contains another array. */
  
  {
-     // // multidimensional array
-     // const data = [[1, 2, 3], [1, 3, 4], [4, 5, 6]];
- }
- 
- {
-     // let studentsData = [['Jack', 24], ['Sara', 23], ['Peter', 24]];
- 
-     // let student1 = ['Jack', 24];
-     // let student2 = ['Sara', 23];
-     // let student3 = ['Peter', 24];
- 
-     // // multidimensional array
-     // let studentsDatas = [student1, student2, student3];
- 
-     // // both example 1 and example 2 creates a multidimensional array with the same data.
+     // multidimensional array
+     const data = [[1, 2, 3], [1, 3, 4], [4, 5, 6]];
+     console.log(data);
  }
  
  /* Access Elements of an Array */
  
  {
-     // let x = [
-     //     ['Jack', 24],
-     //     ['Sara', 23], 
-     //     ['Peter', 24]
-     //     ];
-         
-     //     // access the first item 
-     //     console.log(x[0]);
-         
-     //     // access the first item of the first inner array
-     //     console.log(x[0][0]); 
-         
-     //     // access the second item of the third inner array
-     //     console.log(x[2][1]); 
+    const data = [[1, 2, 3], [1, 6, 4], [4, 5, 6]];
+    let data1 = data[1][1];
+    console.log(data1);
  }
+ 
+ 
  
  
  /* Add an Element to a Multidimensional Array */
  
  {
-     // // Adding Element to the Outer Array
+     // Adding Element to the Outer Array
  
-     // let studentsData = [['Jack', 24], ['Sara', 23],];
-     // studentsData.push(['Peter', 24]);
+     let studentsData = [['Jack', 24], ['Sara', 23]];
+     studentsData.push(['Peter', 24]);
+
+     let data = studentsData[1][1]
  
-     // console.log(studentsData);
+     console.log(studentsData);
+     console.log(data);
  }
  
  {
      // Adding Element to the Inner Array
      {
-         // // using index notation
-         // let studentsData = [['Jack', 24], ['Sara', 23],];
-         // studentsData[1][2] = 'hello';
+         // using index notation
+         let studentsData = [['Jack', 24], ['Sara', 23],];
+         studentsData[1][2] = 'hello';
      
-         // console.log(studentsData);
+         console.log(studentsData);
      }
      {
-         // // using push()
-         // let studentsData = [['Jack', 24], ['Sara', 23],];
-         // studentsData[1].push('hello');
+         // using push()
+         let studentsData = [['Jack', 24], ['Sara', 23],];
+         studentsData[1].push('hello');
  
-         // console.log(studentsData);
+         console.log(studentsData);
      }
      {
-         // // the Array's splice() method to add an element at a specified index.
+         // the Array's splice() method to add an element at a specified index.
  
-         // let studentsData = [['Jack', 24], ['Sara', 23],];
+         let studentsData = [['Jack', 24], ['Sara', 23],];
  
-         // // adding element at 1 index
-         // studentsData.splice(1, 0, ['Peter', 24]);
+         // adding element at 1 index
+         studentsData.splice(1 , ["peter"  , 58]);
  
-         // console.log(studentsData);
+         console.log(studentsData);
      }
  
      /*  Remove an Element from a Multidimensional Array */
  
      {
-         // // remove the array element from outer array
-         // let studentsData = [['Jack', 24], ['Sara', 23],];
-         // studentsData.pop();
+         // remove the array element from outer array
+         let studentsData = [['Jack', 24], ['Sara', 23],];
+         studentsData.pop();
  
-         // console.log(studentsData);
+         console.log(studentsData);
      }
      {
-         // // remove the element from the inner array
-         // let studentsData = [['Jack', 24], ['Sara', 23]];
-         // studentsData[1].pop();
+        //  // remove the element from the inner array
+         let studentsData = [['Jack', 24], ['Sara', 23]];
+         studentsData[1].pop();
  
-         // console.log(studentsData); // [["Jack", 24], ["Sara"]]
+         console.log(studentsData); // [["Jack", 24], ["Sara"]]
      }
      {
-         // // the splice() method to remove an element at a specified index.
-         // let studentsData = [['Jack', 24], ['Sara', 23],];
+         // the splice() method to remove an element at a specified index.
+         let studentsData = [['Jack', 24], ['Sara', 23],];
  
-         // // removing 1 index array item
-         // studentsData.splice(1,1);
-         // console.log(studentsData);
+         // removing 1 index array item
+         studentsData.splice(0,1);
+         console.log(studentsData);
      }
  }
