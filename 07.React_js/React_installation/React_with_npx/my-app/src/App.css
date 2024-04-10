@@ -1,0 +1,80 @@
+/* Navbar */
+.nav {
+  background: rgb(242, 167, 4);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.nav .logo a img {
+  height: 80px;
+}
+
+.items ul{
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+
+.items ul li {
+  margin-right: 50px;
+}
+.items ul li a{
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+}
+
+/* Article */
+
+.art {
+  padding: 20px;
+}
+
+.h1{
+  font-size: 40px;
+  font-weight: 500;
+  color: green;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.Nature {
+  height: 400px;
+  width: 600px;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+p{
+  margin-bottom: 50px;
+}
+
+
+/* Table */
+
+.Table{
+  width: 300px;
+  margin: auto;
+}
+
+.table{
+  border: solid 1px black;
+}
+
+th{
+  border: solid 1px black;
+}
+
+td{
+  border: solid 1px black;
+}
+
+/* Footer */
+
+.Footer {
+  background: cornflowerblue;
+  height: 200px;
+}
